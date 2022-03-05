@@ -17,4 +17,12 @@ public class Item {
                 + "\n"
                 ;
     }
+
+    public int getPriceForItemName(String itemName){
+        if(this.name==itemName){
+            return this.price;
+        }
+        return -1;
+    }
+
 }
